@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+body {
+    margin-top: 100px ;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    width: 110px;
+    cursor: pointer;
+}
+
+.nav-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    padding: 10px 20px;
+    /* Reduced padding for a tighter fit */
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.navbar-buttons a {
+    font-family: DM-Serif-Display;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 20px;
+    /* Added padding for more balanced button appearance */
+}
+
+#btn {
+    font-weight: 400;
+    color: #000000;
+    padding: 10px 15px;
+    font-size: 15px;
+    transition: background-color 0.7s;
+    /* Added padding to button */
+}
+
+#btn:hover {
+    background-color: rgba(255, 152, 49, 0.5);
+}
+
+#btn:active {
+    transition: none;
+    background-color: rgba(89, 57, 25, 0.5);
+}
+
+
+
+
+
+
+
+.sign-in-btn {
+    font-size: 22px;
+    font-weight: 300px;
+    color: #F08922;
+    transition: background-color 0.5s;
+}
+
+.sign-up-btn {
+    font-size: 22px;
+    font-weight: 300px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #F08922;
+    border-radius: 20px;
+    color: #F08922;
+    transition: background-color 0.4s;
+}
+
+.sign-in-btn:hover {
+    background-color: rgba(0, 0, 0, 1);
+    box-shadow: 1px 1px 20px 0.5px;
+
+}
+
+.sign-up-btn:hover {
+    background-color: rgba(0, 0, 0, 1);
+    box-shadow: 1px 1px 20px 0.5px;
+}
+
+.sign-in-btn:active {
+    transition: none;
+    background-color: rgba(14, 13, 23, 0.5);
+}
+
+.sign-up-btn:active {
+    transition: none;
+    background-color: rgba(25, 22, 48, 0.5);
+}
